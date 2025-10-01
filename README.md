@@ -1,4 +1,4 @@
-## 🧬 Cancer Subtype Classification from Genomic Mutations
+## 🧬 Cancer Type Classification using Tokenized Genomic Mutations
 
 This project develops AI models that classify **cancer subtypes** using **genomic mutation data**.  
 Instead of treating mutations as tabular features, we explore **two complementary approaches**:
