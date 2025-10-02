@@ -51,6 +51,14 @@ jupyter notebook cls_transformer_tabular.ipynb
 ---
 
 ### Mutation Preprocessing
+Original data
+| ID         | SUBCLASS | A2M | AAAS | AADAT | ABAT | ABCA1 | ABCA2 | ABCA3 | ... |
+|------------|-----------|-----|------|-------|------|--------|--------|--------|-----|
+| TRAIN_0000 | KIPAN     | WT  | WT   | WT    | WT   | WT     | WT     | WT     | ... |
+| TRAIN_0001 | SARC      | WT  | WT   | WT    | WT   | DG23D  | WT     | T1115M | ... |
+| TRAIN_0002 | SKCM      | R895R | WT | WT    | WT   | WT     | WT     | WT     | ... |
+- `WT`: Wild Type (no mutation) / `R895R`, `DG23D`, `T1115M`: Mutation codes
+ 
 - `preprocessing.ipynb` converts mutation annotations into token sequences
 - Optional: `prot_seq_preprocessing.ipynb` reconstructs mutated protein sequences using UniProt data
 
